@@ -1,0 +1,17 @@
+#parrafo1{
+    background-color: brown;
+    border-width: 10px solid #000;
+}
+
+#parrafo2{
+    background-color: darkgreen;
+}
+
+.grupo1{
+    color: dodgerblue;
+
+}
+#parrafos p {
+ font-size: larger;
+
+}
