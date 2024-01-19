@@ -1,0 +1,10 @@
+.black{
+    background-color: black;
+}
+body{
+    background-color: orange;
+}
+.white{
+    background-color: aliceblue;
+    border: black 10px solid;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="r4.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       <center><img src="https://www.ulima.edu.pe/sites/default/files/styles/600x300/public/news/img/escudo_600x300-01_1.jpg" alt="Universidad de Lima logo" ></center> 
+    </header>
+    <h2 class="titulos">Sobre Nosotros</h2>
+    <p style="font-size: 20px;">Ulima Social es una iniciativa que quiere mejorar la comunidad mediante la ejecucion de 
+        <em><strong style="font-size: 24px; text-decoration: underline;">proyectos practicos</strong></em>
+        que permitan solucionar problemas. Es un lugar donde se juntan gente creativa, 
+        al rededor de grandes ideas.
+    </p>
+
+    <h2 class="titulos">Cronograma</h2>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th style="padding-right: 10px;">Hora</th>
+                <th>Tema</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>18:00 - 20:30</td>
+                <td>Registro</td>
+            </tr>
+            <tr>
+                <td>20:30 - 23:00</td>
+                <td>Charla</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+<h2 class="titulos"> Registrate!</h2>
+
+    <form>
+		<strong><label for="name">Name:</label>
+		<input type="text" id="name" name="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id = "name" name="name">
+        <br>
+        <label for="lugar">Lugar:</label>
+        
+        <select id="lugar" name="lugar">
+            <option value="Lima">Lima</option>
+            <option value="Mancora">Mancora</option>
+        </select>
+        <br>
+        <label for="genero">Genero: </label>
+        <input type="radio">
+        <label for="masculino">Masculino</label>
+        <input type="radio">
+        <label for="femenino">Femenino</label><br>
+        <label for="experiencia">Experiencia:</label><br>
+        <input type="text">
+        <! -- boton para registarse-->
+        <button onclick="registra()">Registrate!</button>
+    </strong>
+        
+
+
+
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
